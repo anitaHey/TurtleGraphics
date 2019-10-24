@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.canvas.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="774.0" prefWidth="594.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane fx:id="draw" layoutX="23.0" layoutY="22.0" prefHeight="313.0" prefWidth="532.0" styleClass="draw">
+         <children>
+            <ImageView fitHeight="51.0" fitWidth="47.0" layoutX="227.0" layoutY="131.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </Pane>
+      <TextArea fx:id="cmd" layoutX="23.0" layoutY="354.0" prefHeight="340.0" prefWidth="393.0" styleClass="cmd" />
+      <TextField fx:id="text" layoutX="23.0" layoutY="712.0" prefHeight="41.0" prefWidth="393.0" styleClass="text" />
+      <Button fx:id="enter" layoutX="444.0" layoutY="712.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="120.0" text="送出" />
+      <Button fx:id="clear" layoutX="444.0" layoutY="413.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="120.0" text="清空指令區" />
+      <Button fx:id="save_cmd" layoutX="444.0" layoutY="475.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="120.0" text="儲存指令" />
+      <Button fx:id="start" layoutX="444.0" layoutY="646.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="120.0" text="確定執行" />
+      <Button fx:id="save_draw" layoutX="444.0" layoutY="354.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="120.0" text="儲存圖像" />
+   </children>
+</AnchorPane>

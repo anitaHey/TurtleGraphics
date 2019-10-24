@@ -1,0 +1,44 @@
+AnchorPane{
+	-fx-font-size:14px;
+	-fx-background-color:#d1caca;
+}
+.button{
+	-fx-background-color:#b2abab;
+	-fx-font-size:16px;
+	-fx-text-fill:#333333;
+}
+
+.button:hover {
+	-fx-background-color:#7a7575;
+}
+
+.draw{
+	-fx-background-color:#ede6e6;
+	-fx-border-color:#a09b9b;
+	-fx-border-width:5px;
+}
+
+
+.cmd{
+	-fx-overflow:scroll;
+}
+
+.scroll{
+	-fx-background-color:#ffffff;
+}
+
+.scroll TextField{
+	-fx-background-color:#ffffff;
+	-fx-border-color:#ffffff;
+}
+
+.scroll TextField:color_red{
+	-fx-text-fill:#DE3C3C;
+}
+
+.scroll TextField:color_blue{
+	-fx-text-fill:#2E94B9;
+}
+.text:color{
+	-fx-border-color:#DE3C3C;
+}
